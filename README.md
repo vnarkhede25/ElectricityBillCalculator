@@ -1,9 +1,5 @@
 # Electricity Bill Calculator (Servlet + JSP)
 
-[![Java Version](https://img.shields.io/badge/Java-8%2B-orange.svg)](https://www.oracle.com/java/)
-[![Maven](https://img.shields.io/badge/Maven-3.x-blue.svg)](https://maven.apache.org/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
 **Electricity Bill Calculator** is a responsive web application developed using **Java Servlets**, **JSP (JavaServer Pages)**, **Bootstrap 5**, and **jQuery**. It calculates residential/commercial electricity bills accurately based on a multi-tiered (slab-wise) tariff rate system.
 
 ---
