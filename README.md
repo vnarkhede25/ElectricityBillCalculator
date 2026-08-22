@@ -10,15 +10,15 @@
 
 ## 🚀 Features
 
-- ⚡ **Slab-based Tariff Calculation**: Computes progressive billing amounts across multiple usage brackets.
-- 📱 **Responsive Modern UI**: Styled with Bootstrap 5.3.0 and jQuery for mobile and desktop screens.
-- 🛑 **Server-side & Client-side Validation**: Validates user inputs against negative values or invalid numbers with user-friendly error messages.
-- 🛠️ **Dual Execution Modes**: Run directly via `jetty-maven-plugin` or through an standalone embedded Jetty server class (`EmbeddedServer.java`).
-- 📦 **Standard WAR Deployment**: Can be packaged into a `.war` file and deployed to any Servlet 4.0 compliant container (Tomcat 9+, Jetty 9+).
+-  **Slab-based Tariff Calculation**: Computes progressive billing amounts across multiple usage brackets.
+-  **Responsive Modern UI**: Styled with Bootstrap 5.3.0 and jQuery for mobile and desktop screens.
+-  **Server-side & Client-side Validation**: Validates user inputs against negative values or invalid numbers with user-friendly error messages.
+-  **Dual Execution Modes**: Run directly via `jetty-maven-plugin` or through an standalone embedded Jetty server class (`EmbeddedServer.java`).
+-  **Standard WAR Deployment**: Can be packaged into a `.war` file and deployed to any Servlet 4.0 compliant container (Tomcat 9+, Jetty 9+).
 
 ---
 
-## 📊 Tariff Slab Rates
+##  Tariff Slab Rates
 
 The application calculates total bill amounts using the following standard slab structure:
 
@@ -31,7 +31,7 @@ The application calculates total bill amounts using the following standard slab 
 
 ---
 
-## 🛠️ Software Requirements & Dependency Versions
+##  Software Requirements & Dependency Versions
 
 ### System Requirements
 
@@ -63,7 +63,7 @@ The application calculates total bill amounts using the following standard slab 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 Electricity_Bill/
@@ -88,7 +88,7 @@ Electricity_Bill/
 
 ---
 
-## 💻 How to Run the Application
+##  How to Run the Application
 
 ### 1. Run with Jetty Maven Plugin (Recommended for Development)
 
@@ -138,7 +138,7 @@ Deploy `electricity-bill-1.0.0.war` into the `webapps` folder of your Apache Tom
 
 ---
 
-## 🔄 Application Workflow
+##  Application Workflow
 
 1. User opens `http://localhost:8080/` (`index.jsp`).
 2. User enters the total electricity units consumed (e.g. `275`) and clicks **Calculate**.
@@ -151,6 +151,7 @@ Deploy `electricity-bill-1.0.0.war` into the `webapps` folder of your Apache Tom
 
 ---
 
-## 📜 License
+##  Screenshot
 
-Distributed under the MIT License. Feel free to modify and use in academic or personal projects.
+<img width="1600" height="832" alt="image" src="https://github.com/user-attachments/assets/89ab88d6-bd0d-4423-8af5-22dcecd37030" />
+<img width="1600" height="836" alt="image" src="https://github.com/user-attachments/assets/095f825e-6614-4f7c-b4aa-4f0e890388e2" />
